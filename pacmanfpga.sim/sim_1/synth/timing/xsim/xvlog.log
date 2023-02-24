@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.sim/sim_1/synth/timing/xsim/test_bench_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz_0_clk_wiz
+INFO: [VRFC 10-311] analyzing module draw
+INFO: [VRFC 10-311] analyzing module game_top
+INFO: [VRFC 10-311] analyzing module seginterface
+INFO: [VRFC 10-311] analyzing module sevenseg
+INFO: [VRFC 10-311] analyzing module simple_rom_smiley
+INFO: [VRFC 10-311] analyzing module vga_out
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sim_1/new/vga_test_assignment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench

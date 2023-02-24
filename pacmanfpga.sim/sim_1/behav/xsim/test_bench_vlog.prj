@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../ES3B2_project_assignment.srcs/sources_1/ip/clk_wiz_0" \
+"../../../../ES3B2_project_assignment.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../ES3B2_project_assignment.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../ES3B2_project_assignment.srcs/sources_1/new/draw_assignment.v" \
+"../../../../ES3B2_project_assignment.srcs/sources_1/new/game_top_assignment.v" \
+"../../../../ES3B2_project_assignment.srcs/sources_1/new/move_assignment.v" \
+"../../../../ES3B2_project_assignment.srcs/sources_1/new/segment_assignment.v" \
+"../../../../ES3B2_project_assignment.srcs/sources_1/new/segment_interface_assignment.v" \
+"../../../../ES3B2_project_assignment.srcs/sources_1/new/simple_rom_smiley_assignment.v" \
+"../../../../ES3B2_project_assignment.srcs/sources_1/new/vga_assignment.v" \
+"../../../../ES3B2_project_assignment.srcs/sim_1/new/vga_test_assignment.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

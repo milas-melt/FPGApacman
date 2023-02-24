@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/draw_assignment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module draw
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/game_top_assignment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module game_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/move_assignment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module move
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/segment_assignment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sevenseg
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/segment_interface_assignment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seginterface
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/simple_rom_smiley_assignment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_rom_sprite
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/vga_assignment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_out
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sim_1/new/vga_test_assignment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench

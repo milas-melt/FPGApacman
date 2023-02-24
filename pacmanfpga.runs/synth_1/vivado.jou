@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu May 20 21:00:31 2021
+# Process ID: 11528
+# Current directory: H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.runs/synth_1
+# Command line: vivado.exe -log game_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source game_top.tcl
+# Log file: H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.runs/synth_1/game_top.vds
+# Journal file: H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source game_top.tcl -notrace

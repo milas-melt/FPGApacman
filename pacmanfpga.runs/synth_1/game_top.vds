@@ -1,0 +1,471 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu May 20 21:00:31 2021
+# Process ID: 11528
+# Current directory: H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.runs/synth_1
+# Command line: vivado.exe -log game_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source game_top.tcl
+# Log file: H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.runs/synth_1/game_top.vds
+# Journal file: H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source game_top.tcl -notrace
+Command: synth_design -top game_top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2636 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 758.613 ; gain = 177.785
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'game_top' [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/game_top_assignment.v:22]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.runs/synth_1/.Xil/Vivado-11528-A407-23/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.runs/synth_1/.Xil/Vivado-11528-A407-23/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'vga_out' [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/vga_assignment.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'vga_out' (2#1) [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/vga_assignment.v:24]
+INFO: [Synth 8-6157] synthesizing module 'move' [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/move_assignment.v:23]
+	Parameter LEFT_SCREEN_BORDER bound to: 10 - type: integer 
+	Parameter RIGHT_SCREEN_BORDER bound to: 1430 - type: integer 
+	Parameter TOP_SCREEN_BORDER bound to: 10 - type: integer 
+	Parameter BOT_SCREEN_BORDER bound to: 890 - type: integer 
+	Parameter STEP bound to: 4 - type: integer 
+	Parameter V_BLOCK_SIZE bound to: 32 - type: integer 
+	Parameter H_BLOCK_SIZE bound to: 32 - type: integer 
+	Parameter H_BLOCK_START bound to: 703 - type: integer 
+	Parameter V_BLOCK_START bound to: 424 - type: integer 
+	Parameter detect bound to: 3'b001 
+	Parameter movingRight bound to: 3'b010 
+	Parameter movingLeft bound to: 3'b100 
+INFO: [Synth 8-6155] done synthesizing module 'move' (3#1) [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/move_assignment.v:23]
+INFO: [Synth 8-6157] synthesizing module 'draw' [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/draw_assignment.v:23]
+	Parameter LEFT_SCREEN_BORDER bound to: 10 - type: integer 
+	Parameter RIGHT_SCREEN_BORDER bound to: 1430 - type: integer 
+	Parameter TOP_SCREEN_BORDER bound to: 10 - type: integer 
+	Parameter BOT_SCREEN_BORDER bound to: 890 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'simple_rom_sprite_h1' [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/simple_rom_smiley_assignment.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/simple_rom_smiley_assignment.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'simple_rom_sprite_h1' (4#1) [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/simple_rom_smiley_assignment.v:23]
+WARNING: [Synth 8-3936] Found unconnected internal register 'index_x_reg' and it is trimmed from '6' to '5' bits. [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/draw_assignment.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'draw' (5#1) [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/draw_assignment.v:23]
+INFO: [Synth 8-6157] synthesizing module 'seginterface' [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/segment_interface_assignment.v:23]
+INFO: [Synth 8-6157] synthesizing module 'sevenseg' [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/segment_assignment.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/segment_assignment.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'sevenseg' (6#1) [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/segment_assignment.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'seginterface' (7#1) [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/segment_interface_assignment.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'game_top' (8#1) [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/game_top_assignment.v:22]
+WARNING: [Synth 8-3331] design move has unconnected port clk
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[28]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[27]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[26]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[25]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[24]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[23]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[22]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[21]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[20]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[19]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[18]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[17]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[16]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[15]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[14]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[13]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[12]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[11]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[10]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[9]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[8]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[7]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[6]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[5]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[4]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[3]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[2]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[1]
+WARNING: [Synth 8-3331] design move has unconnected port clock_count[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 823.477 ; gain = 242.648
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 823.477 ; gain = 242.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 823.477 ; gain = 242.648
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [h:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'inst_0'
+Finished Parsing XDC File [h:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'inst_0'
+Parsing XDC File [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/constrs_1/new/ES3B2_constraints.xdc]
+Finished Parsing XDC File [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/constrs_1/new/ES3B2_constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/constrs_1/new/ES3B2_constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/game_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/game_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 951.586 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 951.586 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 951.586 ; gain = 370.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 951.586 ; gain = 370.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  h:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  h:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for inst_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 951.586 ; gain = 370.758
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'data_reg' [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/simple_rom_smiley_assignment.v:31]
+WARNING: [Synth 8-327] inferring latch for variable 'intseg_reg' [H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.srcs/sources_1/new/segment_assignment.v:35]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 951.586 ; gain = 370.758
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     21 Bit       Adders := 1     
+	   3 Input     13 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 7     
+	   2 Input     10 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
+	   3 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               21 Bit    Registers := 1     
+	               11 Bit    Registers := 5     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     21 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 2     
+	   5 Input     11 Bit        Muxes := 2     
+	   4 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 10    
+	   4 Input      3 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+	   5 Input      1 Bit        Muxes := 2     
+	  32 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module game_top 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     21 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 4     
++---Registers : 
+	               21 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     21 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module vga_out 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 3     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 3     
+	               10 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 3     
+Module move 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 4     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 2     
+	   5 Input     11 Bit        Muxes := 2     
+	   4 Input      5 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 10    
+	   4 Input      3 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 2     
+Module simple_rom_sprite_h1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+	  32 Input      1 Bit        Muxes := 1     
+Module draw 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     13 Bit       Adders := 2     
+	   3 Input      6 Bit       Adders := 1     
+	   3 Input      5 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module sevenseg 
+Detailed RTL Component Info : 
++---Muxes : 
+	  11 Input      1 Bit        Muxes := 1     
+Module seginterface 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'move_inst/btn_reg[3]' (FDE) to 'move_inst/btn_reg[4]'
+INFO: [Synth 8-3886] merging instance 'move_inst/btn_reg[4]' (FDE) to 'move_inst/btn_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\move_inst/btn_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\move_inst/blk_pos_x_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\move_inst/blk_pos_y_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\move_inst/blk_pos_y_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\move_inst/blk_pos_x_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 951.586 ; gain = 370.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++---------------------+-------------------------+---------------+----------------+
+|Module Name          | RTL Object              | Depth x Width | Implemented As | 
++---------------------+-------------------------+---------------+----------------+
+|simple_rom_sprite_h1 | data                    | 64x1          | LUT            | 
+|game_top             | inst_2/memory_inst/data | 64x1          | LUT            | 
++---------------------+-------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'inst_0/clk_out1' to pin 'inst_0/bbstub_clk_out1/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 951.586 ; gain = 370.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 951.586 ; gain = 370.758
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 951.586 ; gain = 370.758
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 958.141 ; gain = 377.313
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 958.141 ; gain = 377.313
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 958.141 ; gain = 377.313
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 958.141 ; gain = 377.313
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 958.141 ; gain = 377.313
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 958.141 ; gain = 377.313
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |clk_wiz_0 |     1|
+|2     |CARRY4    |    24|
+|3     |LUT1      |    26|
+|4     |LUT2      |    54|
+|5     |LUT3      |    25|
+|6     |LUT4      |    60|
+|7     |LUT5      |    33|
+|8     |LUT6      |    43|
+|9     |FDRE      |   144|
+|10    |LD        |     8|
+|11    |OBUF      |    29|
++------+----------+------+
+
+Report Instance Areas: 
++------+----------------+---------------------+------+
+|      |Instance        |Module               |Cells |
++------+----------------+---------------------+------+
+|1     |top             |                     |   447|
+|2     |  inst_1        |vga_out              |   156|
+|3     |  inst_2        |draw                 |    14|
+|4     |    memory_inst |simple_rom_sprite_h1 |     2|
+|5     |  move_inst     |move                 |   105|
+|6     |  seg_inst_0    |seginterface         |    72|
+|7     |    inst_t1     |sevenseg             |    26|
++------+----------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 958.141 ; gain = 377.313
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 958.141 ; gain = 249.203
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 958.141 ; gain = 377.313
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 32 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 967.215 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  LD => LDCE: 7 instances
+  LD => LDCE (inverted pins: G): 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+40 Infos, 33 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:40 . Memory (MB): peak = 967.215 ; gain = 644.688
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 967.215 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'H:/Documents/vivado_projs/ES3B2_project_assignment/ES3B2_project_assignment.runs/synth_1/game_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file game_top_utilization_synth.rpt -pb game_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu May 20 21:01:17 2021...
